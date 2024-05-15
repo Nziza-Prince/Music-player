@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(48, 47, 47);
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.music-player{
+    background-color: blue;
+    border: 1px solid pink;
+    width: 300px;
+    height: 450px;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu i{
+    background-color: white;
+    padding: 15px;
+  border-radius: 5px;
+  margin: 5px;
+    color: orangered;
+    cursor: pointer;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.controls i{
+    background-color:white;
+    padding: 12px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: orangered; 
+   
+}
+ img{
+    position: relative;
+    border: 6px solid white;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+   text-align: center;
+}
+#range{
+    -webkit-appearance: none;
+    background-color: rgb(249, 74, 104);
+    height: 4px;
+    width: 150px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+#range:hover{
+    background-color: rgb(252, 87, 28);
+}
+#range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: rgb(254, 94, 35);
+    box-shadow: 0 0 0 5px rgb(251, 243, 243);
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+#range:focus{
+outline: none;
+}
+#range::-webkit-slider-thumb:hover{
+    background-color: orangered;
+    box-shadow: 0 0 0 5px rgb(248, 217, 217);
+}
+
+.controls i:nth-child(2){
+background-color:orangered;
+color: white;
+width: 40px;
+text-align: center;
+margin: 0 25px 0 25px;
+}
+h5{
+    position: relative;
+    top: 3px;
+    display: inline;
+    margin-left: 17px;
+}
+#restart{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 50px;
+
+}
+#restart:hover{
+    background-color: rgb(195, 194, 194);
+}
+h1,p{
+    color: rgb(158, 255, 106);
+}
